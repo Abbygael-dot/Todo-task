@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signUpFragment">
+
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.example.addtaskapp.fragments.AddTaskFragment"
+        android:label="AddTaskFragment" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.addtaskapp.fragments.SignUpFragment"
+        android:label="SignUpFragment" >
+        <action
+            android:id="@+id/action_signUpFragment_to_addTaskFragment4"
+            app:destination="@id/addTaskFragment" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+</navigation>

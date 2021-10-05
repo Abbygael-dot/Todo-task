@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Abby-Graphix/AndroidStudioProjects/AddTaskApp/app/src/main/res/drawable/ic_baseline_remove_24.xml" value="0.18333333333333332" />
         <entry key="..\:/Users/Abby-Graphix/AndroidStudioProjects/AddTaskApp/app/src/main/res/layout/activity_main.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Abby-Graphix/AndroidStudioProjects/AddTaskApp/app/src/main/res/layout/fragment_add_task.xml" value="0.153125" />
+        <entry key="..\:/Users/Abby-Graphix/AndroidStudioProjects/AddTaskApp/app/src/main/res/layout/fragment_sign_up.xml" value="0.1671875" />
         <entry key="..\:/Users/Abby-Graphix/AndroidStudioProjects/AddTaskApp/app/src/main/res/layout/newtasklayout.xml" value="0.153125" />
         <entry key="..\:/Users/Abby-Graphix/AndroidStudioProjects/AddTaskApp/app/src/main/res/layout/tasklayout.xml" value="0.1671875" />
       </map>

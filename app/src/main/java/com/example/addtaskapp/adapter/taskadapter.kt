@@ -1,17 +1,20 @@
 package com.example.addtaskapp.adapter
 
 import android.content.Context
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.CheckBox
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.addtaskapp.R
+import com.example.addtaskapp.fragments.AddTaskFragment
 import com.example.addtaskapp.model.Taskmodel
 
 
-class taskadapter (private  val context : Context, private val task : MutableList<Taskmodel>):
+class taskadapter(private val context: AddTaskFragment, private val task: MutableList<Taskmodel>):
 RecyclerView.Adapter<taskadapter.TaskViewHolder>() {
 
     class TaskViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
@@ -26,7 +29,6 @@ RecyclerView.Adapter<taskadapter.TaskViewHolder>() {
             LayoutInflater.from(parent.context).inflate(R.layout.tasklayout, parent, false)
         )
     }
-
 
     fun addTask (new : Taskmodel){
         task.add(new)

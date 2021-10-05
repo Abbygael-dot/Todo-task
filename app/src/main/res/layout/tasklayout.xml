@@ -27,5 +27,4 @@
         app:layout_constraintTop_toTopOf="@id/toDoTask"
         tools:ignore="TouchTargetSizeCheck" />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
